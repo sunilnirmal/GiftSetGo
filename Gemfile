@@ -18,6 +18,10 @@ gem 'turbolinks'
 
 gem 'spree', '2.0.4'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
+
+# Theme
+gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-0-stable'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
