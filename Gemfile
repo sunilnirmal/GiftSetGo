@@ -12,6 +12,8 @@ group :production do
 gem 'pg'
 end
 
+gem 'thin'
+gem 'turbolinks'
 # spree
 
 gem 'spree', '2.0.4'
